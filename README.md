@@ -1,10 +1,10 @@
 ```yml
 package: 
-  npm: 
-    build: "npm run build"
-    start: "npm run start"
+  build: "npm run build"
+  start: "npm run start"
+  type: npm
 type: config
 volumes: 
-  npm: 
-    path: local
+  path: local
+
 ```
