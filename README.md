@@ -18,6 +18,6 @@ volumes:
 |         | deploy   | Deploys given project with config settings   |
 |         | docker   | Generates docker config with config settings   |
 
-| volumes | key  | description    |
+| Volumes | key  | description    |
 | :---:   | :---: | :---: |
 |         | path   | Path to target directory  |
