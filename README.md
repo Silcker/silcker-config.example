@@ -2,8 +2,7 @@
 package: 
   build: "npm run build"
   start: "npm run start"
-  type: npm
-type: config
+type: deploy
 volumes: 
   path: local
 
