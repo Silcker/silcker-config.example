@@ -13,7 +13,11 @@ volumes:
 |         | build   | Command to build the project   |
 |         | start   | Command to start the project   |
 
-| Type | key  | description    |
+| Type | value  | value purpose    |
 | :---:   | :---: | :---: |
-|         | build   | Command to build the project   |
-|         | start   | Command to start the project   |
+|         | deploy   | Deploys given project with config settings   |
+|         | docker   | Generates docker config with config settings   |
+
+| volumes | key  | description    |
+| :---:   | :---: | :---: |
+|         | path   | Path to target directory  |
